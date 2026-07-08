@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Tiramisu",
+        "category": "Deserte",
+        "ingredients": ["Mascarpone", "Pișcoturi", "Cafea"],
+        "time": "1 oră"
+    },
+    {
+        "id": 2,
+        "name": "Red Velvet",
+        "category": "Deserte",
+        "ingredients": ["făină", "cacao", "lapte bătut (buttermilk)"],
+        "time": "2 ore 30 min"
+    },
+    {
+        "id": 3,
+        "name": "Tort de ciocolată",
+        "category": "Deserte",
+        "ingredients": ["ciocolată", "făină", "unt"],
+        "time": ""
+    },
+    {
+        "id": 4,
+        "name": "Cheesecake",
+        "category": "Deserte",
+        "ingredients": ["cremă de brânză", "biscuiți digestivi", "unt"],
+        "time": "1 oră 30 min (+ 4-6 ore răcire)"
+    },
+    {
+        "id": 5,
+        "name": "Tort Medovik",
+        "category": "Deserte",
+        "ingredients": ["miere", "făină", "smântână"],
+        "time": "3 ore (+ 8-12 ore pentru frăgezire)"
+    },
+    {
+        "id": 6,
+        "name": "Tort Napoleon",
+        "category": "Deserte",
+        "ingredients": ["aluat foietaj", "cremă de vanilie", "unt"],
+        "time": "3 ore (+ 6-12 ore pentru frăgezire)"
+    },
+    {
+        "id": 7,
+        "name": "Carrot Cake",
+        "category": "Deserte",
+        "ingredients": ["morcovi", "făină", "nuci"],
+        "time": "2 ore"
+    },
+    {
+        "id": 8,
+        "name": "Schwarzwälder (Pădurea Neagră)",
+        "category": "Deserte",
+        "ingredients": ["ciocolată", "vișine", "frișcă"],
+        "time": "2 ore 30 min"
+    },
+    {
+        "id": 9,
+        "name": "Pavlova",
+        "category": "Deserte",
+        "ingredients": ["albușuri", "zahăr", "frișcă"],
+        "time": "2 ore"
+    }
+]
