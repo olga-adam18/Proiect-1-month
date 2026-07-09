@@ -125,5 +125,68 @@
         "category":"Prânz",
         "ingredients":["orez","piept de pui","morcovi"],
         "time":"50 min"
+    },
+    {
+        "id":19,
+        "name":"Omletă cu brânză",
+        "category":"Mic dejun",
+        "ingredients":["ouă","cașcaval","unt"],
+        "time":"15 min"
+    },
+    {
+        "id":20,
+        "name":"erci de ovăz cu fructe",
+        "category":"Mic dejun",
+        "ingredients":["fulgi de ovăz","banane","lapte"],
+        "time":"15 min"
+    },
+    {
+        "id":21,
+        "name":"Toast cu avocado",
+        "category":"Mic dejun",
+        "ingredients":["pâine","avocado","ou"],
+        "time":"15 min"
+    },
+    {
+        "id":22,
+        "name":"Clătite americane",
+        "category":"Mic dejun",
+        "ingredients":["ouă","lapte","făină"],
+        "time":"25 min"
+    },
+    {
+        "id":23,
+        "name":"Iaurt cu granola",
+        "category":"Mic dejun",
+        "ingredients":["iaurt","granola","fructe de pădure"],
+        "time":"5 min"
+    },
+    {
+        "id":24,
+        "name":"Sandviș cu șuncă și cașcaval",
+        "category":"Mic dejun",
+        "ingredients":["pâine","cașcaval","șuncă"],
+        "time":"10 min"
+    },
+    {
+        "id":25,
+        "name":"Budincă de chia",
+        "category":"Mic dejun",
+        "ingredients":["lapte","miere","semințe de chia"],
+        "time":"15 min"
+    },
+    {
+        "id":26,
+        "name":"Ouă ochiuri cu bacon",
+        "category":"Mic dejun",
+        "ingredients":["ouă","bacon","unt"],
+        "time":"10 min (+ 4 ore răcire)"
+    },
+    {
+        "id":27,
+        "name":"Croissant cu unt și gem",
+        "category":"Mic dejun",
+        "ingredients":["unt","gem","croissant"],
+        "time":"5 min"
     }
 ]
