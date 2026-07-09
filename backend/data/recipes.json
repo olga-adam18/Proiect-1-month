@@ -61,5 +61,69 @@
         "category": "Deserte",
         "ingredients": ["albușuri", "zahăr", "frișcă"],
         "time": "2 ore"
+    },
+    {
+        "id":10,
+        "name":"Piept de pui la grătar cu orez",
+        "category": "Prânz",
+        "ingredients":["piept de pui","orez","broccoli"],
+        "time":"40 min"
+    },
+    {
+        "id":11,
+        "name":"Paste Carbonara",
+        "category":"Prânz",
+        "ingredients":["paste","bacon","parmezan"],
+        "time":"25 min"
+    },
+    {
+        "id":12,
+        "name":"Lasagna",
+        "category":"Prânz",
+        "ingredients":["foi de lasagna","carne tocată","mozzarella"],
+        "time":"1 oră 30 min "
+    },
+    {
+        "id":13,
+        "name":"Somon la cuptor cu cartofi",
+        "category":"Prânz",
+        "ingredients":["somon","cartofi","lămâie"],
+        "time":"40 min"
+    },
+    {
+        "id":14,
+        "name":"Pui dulce-acrișor cu legume",
+        "category":"Prânz",
+        "ingredients":["piept de pui","sos dulce-acrișor","ardei"],
+        "time":"35 de min"
+    },
+    {
+        "id":15,
+        "name":"Rissoto cu ciuperci",
+        "category":"Prânz",
+        "ingredients":["orez Arborio","ciuperci","parmezan"],
+        "time":"40 min"
+
+    },
+    {
+        "id":16,
+        "name":"Mămăligă cu brânză și smântână",
+        "category":"Prânz",
+        "ingredients":["mălai","brânză","smântână"],
+        "time":" 30 min"
+    },
+    {
+        "id":17,
+        "name":"Tocăniță de vită",
+        "category":"Prânz",
+        "ingredients":["carne de vită","ceapă","cartofi"],
+        "time":"2 ore"
+    },
+    {
+        "id":18,
+        "name":"Pilaf cu pui",
+        "category":"Prânz",
+        "ingredients":["orez","piept de pui","morcovi"],
+        "time":"50 min"
     }
 ]
