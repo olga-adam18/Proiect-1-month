@@ -314,5 +314,68 @@
         "category":"Gustări",
         "ingredients":["pâine","șuncă","cașcaval"],
         "time":"10 min"
+    },
+    {
+        "id":46,
+        "name":"Salată Caesar",
+        "category":"Salate",
+        "ingredients":["piept de pui","parmezan","salată verde" ],
+        "time":"25 min"
+    },
+    {
+        "id":47,
+        "name":"Salată Caprese",
+        "category":"Salate",
+        "ingredients":["roșii","mozzarella","busuioc"],
+        "time":"10 min"
+    },
+    {
+        "id":48,
+        "name":"Salată Grecească",
+        "category":"Salate",
+        "ingredients":["roșii","brânză feta","castraveți"],
+        "time":"15 min"
+    },
+    {
+        "id":49,
+        "name":"Salată cu ton",
+        "category":"Salate",
+        "ingredients":["ton","porumb","salată verde"],
+        "time":"15 min"
+    },
+    {
+        "id":50,
+        "name":"Salată de paste",
+        "category":"Salate",
+        "ingredients":["paste","roșii","mozzarella"],
+        "time":"25 min"
+    },
+    {
+        "id":51,
+        "name":"Salată de varză",
+        "category":"Salate",
+        "ingredients":["varză","ulei","morcovi"],
+        "time":"15 min"
+    },
+    {
+        "id":52,
+        "name":"Salată cu avocado",
+        "category":"Salate",
+        "ingredients":["avocado","roșii","castraveți"],
+        "time":"15 min"
+    },
+    {
+        "id":53,
+        "name":"Salată Nicoise",
+        "category":"Salate",
+        "ingredients":["ton","ouă","fasole verde"],
+        "time":"35 min"
+    },
+    {
+        "id":54,
+        "name":"Salată cu quinoa",
+        "category":"Salate",
+        "ingredients":["quinoa","ardei","castraveți"],
+        "time":" 30 min"
     }
 ]
