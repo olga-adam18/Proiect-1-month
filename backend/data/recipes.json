@@ -18,7 +18,7 @@
         "name": "Tort de ciocolată",
         "category": "Deserte",
         "ingredients": ["ciocolată", "făină", "unt"],
-        "time": ""
+        "time": "2 ore"
     },
     {
         "id": 4,
@@ -95,7 +95,7 @@
         "name":"Pui dulce-acrișor cu legume",
         "category":"Prânz",
         "ingredients":["piept de pui","sos dulce-acrișor","ardei"],
-        "time":"35 de min"
+        "time":"35 min"
     },
     {
         "id":15,
@@ -188,5 +188,68 @@
         "category":"Mic dejun",
         "ingredients":["unt","gem","croissant"],
         "time":"5 min"
+    },
+    {
+        "id":28,
+        "name":"Piept de pui cu legume la tigaie",
+        "category":"Cină",
+        "ingredients":["piept de pui","ardei","dovlecei"],
+        "time":" 30 min"
+    },
+    {
+        "id":29,
+        "name":"Paste cu pesto",
+        "category":"Cină",
+        "ingredients":["paste","pesto","parmezan"],
+        "time":"20 min"
+    },
+    {
+        "id":30,
+        "name":"Somon cu sparanghel",
+        "category":"Cină",
+        "ingredients":["somon","sparanghel","lămâie"],
+        "time":" 30 min"
+    },
+    {
+        "id":31,
+        "name":"Quesadilla cu pui",
+        "category":"Cină",
+        "ingredients":["lipie","piept de pui","cașcaval"],
+        "time":"20 min"
+    },
+    {
+        "id":32,
+        "name":"Legume la cuptor",
+        "category":"Cină",
+        "ingredients":["cartofi","morcovi","dovlecei"],
+        "time":"45 min"
+    },
+    {
+        "id":33,
+        "name":"Pizza Margherita",
+        "category":"Cină",
+        "ingredients":["aluat","mozzarella","roșii"],
+        "time":"40 min"
+    },
+    {
+        "id":34,
+        "name":"Tortilla cu legume",
+        "category":"Cină",
+        "ingredients":["lipie","ardei","cașcaval"],
+        "time":"20 min"
+    },
+    {
+        "id":35,
+        "name":"Orez prăjit cu legume",
+        "category":"Cină",
+        "ingredients":["orez","morcovi","mazăre"],
+        "time":"25 min"
+    },
+    {
+        "id":36,
+        "name":"Burger de pui",
+        "category":"Cină",
+        "ingredients":["chiflă","piept de pui","salată"],
+        "time":"35 min"
     }
 ]
