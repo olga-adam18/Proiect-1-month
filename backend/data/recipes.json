@@ -251,5 +251,68 @@
         "category":"Cină",
         "ingredients":["chiflă","piept de pui","salată"],
         "time":"35 min"
+    },
+    {
+        "id":37,
+        "name":"Bruschete cu roșii",
+        "category":"Gustări",
+        "ingredients":["baghetă","roșii","busuioc"],
+        "time":"15 min"
+    },
+    {
+        "id":38,
+        "name":"Nachos cu sos de brânză",
+        "category":"Gustări",
+        "ingredients":["nachos","lapte","brânză cheddar"],
+        "time":"15 min"
+    },
+    {
+        "id":39,
+        "name":"Hummus cu morcovi",
+        "category":"Gustări",
+        "ingredients":["morcovi","năut","tahini"],
+        "time":"10 min"
+    },
+    {
+        "id":40,
+        "name":"Popcorn",
+        "category":"Gustări",
+        "ingredients":["porumb","ulei","sare"],
+        "time":"10 min"
+    },
+    {
+        "id":41,
+        "name":"Mix de fructe",
+        "category":"Gustări",
+        "ingredients":["mere","banane","kiwi"],
+        "time":"10 min"
+    },
+    {
+        "id":42,
+        "name":"Biluțe energizante",
+        "category":"Gustări",
+        "ingredients":["ovăz","cacao","curmale"],
+        "time":"20 min"
+    },
+    {
+        "id":43,
+        "name":"Batoane cu ovăz",
+        "category":"Gustări",
+        "ingredients":["fulgi de ovăz","miere","nuci"],
+        "time":"35 min"
+    },
+    {
+        "id":44,
+        "name":"Iaurt cu miere și nuci",
+        "category":"Gustări",
+        "ingredients":["pâine","cașcaval","șuncă"],
+        "time":"5 min"
+    },
+    {
+        "id":45,
+        "name":"Mini sandvișuri",
+        "category":"Gustări",
+        "ingredients":["pâine","șuncă","cașcaval"],
+        "time":"10 min"
     }
 ]
