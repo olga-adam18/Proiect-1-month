@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"Măr",
+        "category":"Fructe",
+        "calories":"52 kcal / 100 g",
+        "protein":"0.3 g",
+        "fat":"0.2 g",
+        "carbohydrates": "14 g"
+    },
+    {
+        "id":2,
+        "name":"Banană",
+        "category":"Fructe",
+        "calories":"89 kcal / 100 g",
+        "protein":"1.1 g",
+        "fat": "0.3 g",
+        "carbohydrates":"23 g",
+    },
+    {
+        "id":3,
+        "name":"Portocală",
+        "category":"Fructe",
+        "calories":"47 kcal / 100 g",
+        "protein":"0.9 g",
+        "fat":"0.1 g",
+        "carbohydrates":"12 g"
+    },
+    {
+        "id":4,
+        "name":"Lămâie",
+        "category":"Fructe",
+        "calories":"29 kcal / 100 g",
+        "protein":"1.1 g",
+        "fat":"0.3 g",
+        "carbohydrates":"9 g"
+    },
+    {
+        "id":5,
+        "name":"Căpșuni",
+        "category":"Fructe",
+        ""
+    }
+]
