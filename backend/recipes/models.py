@@ -4,6 +4,6 @@ from django.db import models
 class Recipe(models.Model):
     name=models.CharField(max_length=100)
     category = models.CharField(max_length=50)
-    ingredients=models.TextField()
+    ingredients=models.JSONField()
     time=models.CharField(max_length=50)
 
