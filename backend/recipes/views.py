@@ -78,4 +78,46 @@ def update_recipes(request,id):
         {"message":"Rețeta a fost actualizată"}, status = 200
     )
 
+@csrf_exempt
+def patch_recipes(request,id):
+
+    if request.method != "PATCH":
+        return JsonResponse(
+            {"error":"Doar metoda PATCH este permisă"}, status = 405
+        ) 
+    
+    try:
+        recipe = Recipe.objects.get(id=id)
+
+    except Recipe.DoesNotExist:
+        return JsonResponse(
+            {"error":"Rețeta nu există"},status= 404
+        )
+    
+    if recipe.is_default:
+        return JsonResponse(
+            {"error":"Nu poți modifica o rețetă implicită"},status = 403
+        )
+    
+    data = json.loads(request.body)
+
+    if "name" in data:
+        recipe.name=data["name"]
+    if "category" in data:
+        recipe.category=data["category"]
+    if "ingredients" in data:
+        recipe.ingredients=data["ingredients"]
+    if "time" in data:
+        recipe.time=data["time"]
+
+    recipe.save()
+
+    return JsonResponse(
+        {"error":"Rețeta a fost modificată parțial"}, status=200
+    )
+
+
+
+    
+
 
