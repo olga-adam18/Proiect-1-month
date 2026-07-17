@@ -23,6 +23,31 @@ def get_recipes(request):
     return JsonResponse(data,safe=False)
 
 @csrf_exempt
+def get_one_recipe(request,id):
+    if request.method != "GET":
+        return JsonResponse(
+            {"error":"Doar metoda GET este permisă"}, status = 405
+        )
+    
+    try:
+        recipe = Recipe.objects.get(id=id)
+    except Recipe.DoesNotExist:
+        return JsonResponse(
+            {"error":"Rețeta nu există"}, status = 404
+        )
+    
+    return JsonResponse(
+        {
+            "id":recipe.id,
+            "name":recipe.name,
+            "category":recipe.category,
+            "ingredients":recipe.ingredients,
+            "time":recipe.time
+        } ,  status=200
+    )
+
+
+@csrf_exempt
 def add_recipes(request):
 
     if request.method != "POST":
@@ -113,11 +138,37 @@ def patch_recipes(request,id):
     recipe.save()
 
     return JsonResponse(
-        {"error":"Rețeta a fost modificată parțial"}, status=200
+        {"message":"Rețeta a fost modificată parțial"}, status=200
+    )
+
+@csrf_exempt
+def delete_recipes(request,id):
+
+    if request.method != "DELETE":
+        return JsonResponse(
+            {"error":"Doar metoda DELETE este permisă"}, status = 405
+        )
+    
+    try:
+
+        recipe = Recipe.objects.get(id=id)
+    except Recipe.DoesNotExist:
+        return JsonResponse(
+            {"error":"Rețeta nu există"}, status = 404
+        )
+    
+    if recipe.is_default:
+        return JsonResponse(
+            {"error":"Nu poți șterge o rețetă implicită"}, status = 403
+        )
+    
+    recipe.delete()
+    return JsonResponse(
+        {"message":"Rețeta a fost ștearsă cu succes"}, status=200
     )
 
 
 
-    
+
 
 
