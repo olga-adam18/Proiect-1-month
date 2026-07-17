@@ -1,7 +1,7 @@
 from django.http import JsonResponse
 from .models import Recipe
 import json
-from django.views.decorators.csrf import csrf_exempt # i'm using this for testing with tools like Postman
+from django.views.decorators.csrf import csrf_exempt # i'm using this for testing with  Postman
 
 def get_recipes(request):
 
@@ -77,10 +77,5 @@ def update_recipes(request,id):
     return JsonResponse(
         {"message":"Rețeta a fost actualizată"}, status = 200
     )
-
-
-
-
-
 
 
