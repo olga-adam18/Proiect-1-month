@@ -1,7 +1,7 @@
 from django.http import JsonResponse
 from .models import Recipe
 import json
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_exempt # i'm using this for testing with tools like Postman
 
 def get_recipes(request):
 
@@ -34,7 +34,8 @@ def add_recipes(request):
         name=data["name"],
         category=data["category"],
         ingredients=data["ingredients"],
-        time=data["time"]
+        time=data["time"],
+        is_default=False
     )
     return JsonResponse(
         {
@@ -42,6 +43,42 @@ def add_recipes(request):
             "message":"Rețetă adăugată cu succes"
         }, status = 201
     )
+
+
+@csrf_exempt #tells Django not to check the CSRF security token for this view.
+def update_recipes(request,id):
+    if request.method != "PUT":
+        return JsonResponse(
+            {"error":"Doar metoda PUT este permisă"}, status=405
+        )
+    
+    try:
+        recipe = Recipe.objects.get(id=id) 
+
+    except Recipe.DoesNotExist:
+        return JsonResponse(
+            {"error":"Rețeta nu există"},status = 404
+        )
+    
+    if recipe.is_default:
+        return JsonResponse(
+            {"error": "Nu poți modifica o rețetă implicită"}, status = 403
+        )
+    
+    data = json.loads(request.body)
+
+    recipe.name=data["name"]
+    recipe.category=data["category"]
+    recipe.ingredients=data["ingredients"]
+    recipe.time=data["time"]
+
+    recipe.save()
+
+    return JsonResponse(
+        {"message":"Rețeta a fost actualizată"}, status = 200
+    )
+
+
 
 
 
