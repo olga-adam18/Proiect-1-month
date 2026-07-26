@@ -1,44 +1,412 @@
 [
     {
-        "id":1,
-        "name":"Măr",
-        "category":"Fructe",
-        "calories":"52 kcal / 100 g",
-        "protein":"0.3 g",
-        "fat":"0.2 g",
-        "carbohydrates": "14 g"
+        "id": 1,
+        "name": "Măr",
+        "category": "Fructe",
+        "calories": "52 kcal / 100 g",
+        "protein": "0.3 g",
+        "fat": "0.2 g",
+        "carbohydrates": "14 g",
+        "description": "Mărul este un fruct bogat în fibre și vitamine, consumat frecvent datorită gustului dulce și proprietăților sale nutritive."
     },
     {
-        "id":2,
-        "name":"Banană",
-        "category":"Fructe",
-        "calories":"89 kcal / 100 g",
-        "protein":"1.1 g",
+        "id": 2,
+        "name": "Banană",
+        "category": "Fructe",
+        "calories": "89 kcal / 100 g",
+        "protein": "1.1 g",
         "fat": "0.3 g",
-        "carbohydrates":"23 g",
+        "carbohydrates": "23 g",
+        "description": "Banana este un fruct energizant, bogat în potasiu și carbohidrați, fiind potrivită înainte sau după activitate fizică."
     },
     {
-        "id":3,
-        "name":"Portocală",
-        "category":"Fructe",
-        "calories":"47 kcal / 100 g",
-        "protein":"0.9 g",
-        "fat":"0.1 g",
-        "carbohydrates":"12 g"
+        "id": 3,
+        "name": "Kiwi",
+        "category": "Fructe",
+        "calories": "61 kcal / 100 g",
+        "protein": "1.1 g",
+        "fat": "0.5 g",
+        "carbohydrates": "15 g",
+        "description": "Kiwi este un fruct bogat în vitamina C și fibre, apreciat pentru gustul său dulce-acrișor."
     },
     {
-        "id":4,
-        "name":"Lămâie",
-        "category":"Fructe",
-        "calories":"29 kcal / 100 g",
-        "protein":"1.1 g",
-        "fat":"0.3 g",
-        "carbohydrates":"9 g"
+        "id": 4,
+        "name": "Avocado",
+        "category": "Fructe",
+        "calories": "160 kcal / 100 g",
+        "protein": "2 g",
+        "fat": "15 g",
+        "carbohydrates": "9 g",
+        "description": "Avocado este un fruct bogat în grăsimi sănătoase și fibre, folosit în preparate precum salate și gustări."
     },
     {
-        "id":5,
-        "name":"Căpșuni",
-        "category":"Fructe",
-        ""
+        "id": 5,
+        "name": "Lămâie",
+        "category": "Fructe",
+        "calories": "29 kcal / 100 g",
+        "protein": "1.1 g",
+        "fat": "0.3 g",
+        "carbohydrates": "9 g",
+        "description": "Lămâia este un fruct citric bogat în vitamina C, utilizat pentru aromatizarea preparatelor și băuturilor."
+    },
+    {
+        "id": 6,
+        "name": "Vișine",
+        "category": "Fructe",
+        "calories": "50 kcal / 100 g",
+        "protein": "1 g",
+        "fat": "0.3 g",
+        "carbohydrates": "12 g",
+        "description": "Vișinele sunt fructe cu gust acrișor, bogate în antioxidanți și utilizate frecvent în deserturi."
+    },
+    {
+        "id": 7,
+        "name": "Fructe de pădure",
+        "category": "Fructe",
+        "calories": "50 kcal / 100 g",
+        "protein": "1 g",
+        "fat": "0.5 g",
+        "carbohydrates": "12 g",
+        "description": "Fructele de pădure sunt bogate în vitamine, fibre și antioxidanți, fiind folosite în smoothie-uri și deserturi."
+    },
+   {
+        "id": 8,
+        "name": "Roșii",
+        "category": "Legume",
+        "calories": "18 kcal / 100 g",
+        "protein": "0.9 g",
+        "fat": "0.2 g",
+        "carbohydrates": "3.9 g",
+        "description": "Roșiile sunt legume bogate în apă, vitamine și antioxidanți, fiind folosite frecvent în salate, sosuri și preparate culinare."
+    },
+    {
+        "id": 9,
+        "name": "Castraveți",
+        "category": "Legume",
+        "calories": "15 kcal / 100 g",
+        "protein": "0.7 g",
+        "fat": "0.1 g",
+        "carbohydrates": "3.6 g",
+        "description": "Castraveții au un conținut ridicat de apă și sunt apreciați pentru prospețimea lor în salate și preparate ușoare."
+    },
+    {
+        "id": 10,
+        "name": "Morcovi",
+        "category": "Legume",
+        "calories": "41 kcal / 100 g",
+        "protein": "0.9 g",
+        "fat": "0.2 g",
+        "carbohydrates": "10 g",
+        "description": "Morcovii sunt bogați în beta-caroten și fibre, fiind utilizați în supe, salate și garnituri."
+    },
+    {
+        "id": 11,
+        "name": "Broccoli",
+        "category": "Legume",
+        "calories": "34 kcal / 100 g",
+        "protein": "2.8 g",
+        "fat": "0.4 g",
+        "carbohydrates": "7 g",
+        "description": "Broccoli este o legumă nutritivă, bogată în fibre, vitamine și minerale, potrivită pentru preparate sănătoase."
+    },
+    {
+        "id": 12,
+        "name": "Ardei",
+        "category": "Legume",
+        "calories": "31 kcal / 100 g",
+        "protein": "1 g",
+        "fat": "0.3 g",
+        "carbohydrates": "6 g",
+        "description": "Ardeiul este o sursă bună de vitamina C și antioxidanți, fiind folosit în salate, preparate la tigaie și cuptor."
+    },
+    {
+        "id": 13,
+        "name": "Cartofi",
+        "category": "Legume",
+        "calories": "77 kcal / 100 g",
+        "protein": "2 g",
+        "fat": "0.1 g",
+        "carbohydrates": "17 g",
+        "description": "Cartofii sunt o sursă importantă de carbohidrați și energie, fiind utilizați în numeroase preparate culinare."
+    },
+    {
+        "id": 14,
+        "name": "Dovlecei",
+        "category": "Legume",
+        "calories": "17 kcal / 100 g",
+        "protein": "1.2 g",
+        "fat": "0.3 g",
+        "carbohydrates": "3.1 g",
+        "description": "Dovleceii sunt legume ușoare și versatile, potrivite pentru preparate la grătar, cuptor sau tigaie."
+    },
+    {
+        "id": 15,
+        "name": "Ciuperci",
+        "category": "Legume",
+        "calories": "22 kcal / 100 g",
+        "protein": "3.1 g",
+        "fat": "0.3 g",
+        "carbohydrates": "3.3 g",
+        "description": "Ciupercile sunt apreciate pentru conținutul de proteine vegetale și gustul lor, fiind folosite în multe preparate."
+    },
+    {
+        "id": 16,
+        "name": "Lapte",
+        "category": "Lactate",
+        "calories": "61 kcal / 100 g",
+        "protein": "3.2 g",
+        "fat": "3.3 g",
+        "carbohydrates": "4.8 g",
+        "description": "Laptele este un produs lactat bogat în calciu și proteine, folosit în numeroase preparate dulci și sărate."
+    },
+    {
+        "id": 17,
+        "name": "Unt",
+        "category": "Lactate",
+        "calories": "717 kcal / 100 g",
+        "protein": "0.9 g",
+        "fat": "81 g",
+        "carbohydrates": "0.1 g",
+        "description": "Untul este un produs lactat bogat în grăsimi, utilizat frecvent la prepararea deserturilor și a sosurilor."
+    },
+    {
+        "id": 18,
+        "name": "Iaurt",
+        "category": "Lactate",
+        "calories": "61 kcal / 100 g",
+        "protein": "3.5 g",
+        "fat": "3.3 g",
+        "carbohydrates": "4.7 g",
+        "description": "Iaurtul este un produs fermentat bogat în proteine și calciu, folosit în mic dejunuri și gustări."
+    },
+    {
+        "id": 19,
+        "name": "Smântână",
+        "category": "Lactate",
+        "calories": "193 kcal / 100 g",
+        "protein": "2.1 g",
+        "fat": "20 g",
+        "carbohydrates": "3.5 g",
+        "description": "Smântâna este un produs lactat cremos folosit în special pentru creme și deserturi."
+    },
+    {
+        "id": 20,
+        "name": "Mascarpone",
+        "category": "Lactate",
+        "calories": "429 kcal / 100 g",
+        "protein": "4.6 g",
+        "fat": "42 g",
+        "carbohydrates": "4.1 g",
+        "description": "Mascarpone este o brânză italiană cremoasă folosită în deserturi precum tiramisu."
+    },
+    {
+        "id": 21,
+        "name": "Cremă de brânză",
+        "category": "Lactate",
+        "calories": "342 kcal / 100 g",
+        "protein": "6 g",
+        "fat": "34 g",
+        "carbohydrates": "4 g",
+        "description": "Crema de brânză este un produs fin și cremos utilizat în cheesecake și alte deserturi."
+    },
+    {
+        "id": 22,
+        "name": "Mozzarella",
+        "category": "Lactate",
+        "calories": "280 kcal / 100 g",
+        "protein": "28 g",
+        "fat": "17 g",
+        "carbohydrates": "3.1 g",
+        "description": "Mozzarella este o brânză proaspătă folosită în pizza, salate și preparate culinare."
+    },
+    {
+        "id": 23,
+        "name": "Parmezan",
+        "category": "Lactate",
+        "calories": "431 kcal / 100 g",
+        "protein": "38 g",
+        "fat": "29 g",
+        "carbohydrates": "4 g",
+        "description": "Parmezanul este o brânză maturată cu gust intens, folosită pentru paste și preparate sărate."
+    },
+     {
+        "id": 24,
+        "name": "Piept de pui",
+        "category": "Carne",
+        "calories": "165 kcal / 100 g",
+        "protein": "31 g",
+        "fat": "3.6 g",
+        "carbohydrates": "0 g",
+        "description": "Pieptul de pui este o sursă bogată de proteine, folosit frecvent în preparate sănătoase și salate."
+    },
+    {
+        "id": 25,
+        "name": "Carne de vită",
+        "category": "Carne",
+        "calories": "250 kcal / 100 g",
+        "protein": "26 g",
+        "fat": "15 g",
+        "carbohydrates": "0 g",
+        "description": "Carnea de vită este bogată în proteine și minerale, fiind utilizată în preparate consistente."
+    },
+     {
+        "id": 26,
+        "name": "Somon",
+        "category": "Pește și fructe de mare",
+        "calories": "208 kcal / 100 g",
+        "protein": "20 g",
+        "fat": "13 g",
+        "carbohydrates": "0 g",
+        "description": "Somonul este un pește bogat în proteine și acizi grași Omega-3, folosit în preparate sănătoase."
+    },
+    {
+        "id": 27,
+        "name": "Ton",
+        "category": "Pește și fructe de mare",
+        "calories": "132 kcal / 100 g",
+        "protein": "28 g",
+        "fat": "1 g",
+        "carbohydrates": "0 g",
+        "description": "Tonul este o sursă importantă de proteine și este folosit în salate și preparate rapide."
+    },
+    {
+        "id": 28,
+        "name": "Făină",
+        "category": "Cereale și făinoase",
+        "calories": "364 kcal / 100 g",
+        "protein": "10 g",
+        "fat": "1 g",
+        "carbohydrates": "76 g",
+        "description": "Făina este un ingredient de bază folosit la prepararea pâinii, prăjiturilor și produselor de patiserie."
+    },
+    {
+        "id": 29,
+        "name": "Orez",
+        "category": "Cereale și făinoase",
+        "calories": "130 kcal / 100 g",
+        "protein": "2.7 g",
+        "fat": "0.3 g",
+        "carbohydrates": "28 g",
+        "description": "Orezul este o sursă importantă de carbohidrați și este folosit ca garnitură sau în preparate principale."
+    },
+    {
+        "id": 30,
+        "name": "Paste",
+        "category": "Cereale și făinoase",
+        "calories": "131 kcal / 100 g",
+        "protein": "5 g",
+        "fat": "1.1 g",
+        "carbohydrates": "25 g",
+        "description": "Pastele sunt produse din cereale bogate în carbohidrați, folosite în numeroase preparate culinare."
+    },
+    {
+        "id": 31,
+        "name": "Fulgi de ovăz",
+        "category": "Cereale și făinoase",
+        "calories": "389 kcal / 100 g",
+        "protein": "16.9 g",
+        "fat": "6.9 g",
+        "carbohydrates": "66 g",
+        "description": "Fulgi de ovăz sunt bogați în fibre și sunt utilizați frecvent la micul dejun."
+    },
+     {
+        "id": 32,
+        "name": "Nuci",
+        "category": "Nuci și semințe",
+        "calories": "654 kcal / 100 g",
+        "protein": "15 g",
+        "fat": "65 g",
+        "carbohydrates": "14 g",
+        "description": "Nucile sunt bogate în grăsimi sănătoase, proteine și minerale, fiind folosite în deserturi și gustări."
+    },
+    {
+        "id": 33,
+        "name": "Semințe de chia",
+        "category": "Nuci și semințe",
+        "calories": "486 kcal / 100 g",
+        "protein": "16.5 g",
+        "fat": "30.7 g",
+        "carbohydrates": "42 g",
+        "description": "Semințele de chia sunt bogate în fibre, proteine și acizi grași Omega-3, fiind folosite în preparate sănătoase."
+    },
+     {
+        "id": 34,
+        "name": "Ulei de măsline",
+        "category": "Uleiuri și grăsimi",
+        "calories": "884 kcal / 100 g",
+        "protein": "0 g",
+        "fat": "100 g",
+        "carbohydrates": "0 g",
+        "description": "Uleiul de măsline este o sursă de grăsimi sănătoase și este folosit în salate și preparate culinare."
+    },
+    {
+        "id": 35,
+        "name": "Ulei vegetal",
+        "category": "Uleiuri și grăsimi",
+        "calories": "884 kcal / 100 g",
+        "protein": "0 g",
+        "fat": "100 g",
+        "carbohydrates": "0 g",
+        "description": "Uleiul vegetal este utilizat frecvent la gătit și prepararea diferitelor feluri de mâncare."
+    },
+     {
+        "id": 36,
+        "name": "Sare",
+        "category": "Condimente și ierburi",
+        "calories": "0 kcal / 100 g",
+        "protein": "0 g",
+        "fat": "0 g",
+        "carbohydrates": "0 g",
+        "description": "Sarea este un condiment folosit pentru intensificarea gustului preparatelor culinare."
+    },
+    {
+        "id": 37,
+        "name": "Piper",
+        "category": "Condimente și ierburi",
+        "calories": "251 kcal / 100 g",
+        "protein": "10 g",
+        "fat": "3.3 g",
+        "carbohydrates": "64 g",
+        "description": "Piperul este un condiment aromat folosit pentru a oferi gust și savoare preparatelor."
+    },
+    {
+        "id": 38,
+        "name": "Busuioc",
+        "category": "Condimente și ierburi",
+        "calories": "23 kcal / 100 g",
+        "protein": "3.2 g",
+        "fat": "0.6 g",
+        "carbohydrates": "2.7 g",
+        "description": "Busuiocul este o plantă aromatică folosită pentru condimentarea salatelor, pastelor și sosurilor."
+    },
+    {
+        "id": 39,
+        "name": "Oregano",
+        "category": "Condimente și ierburi",
+        "calories": "265 kcal / 100 g",
+        "protein": "9 g",
+        "fat": "4.3 g",
+        "carbohydrates": "69 g",
+        "description": "Oregano este o plantă aromatică folosită pentru a adăuga aromă preparatelor italiene și mediteraneene."
+    },
+    {
+        "id": 40,
+        "name": "Scorțișoară",
+        "category": "Condimente și ierburi",
+        "calories": "247 kcal / 100 g",
+        "protein": "4 g",
+        "fat": "1.2 g",
+        "carbohydrates": "81 g",
+        "description": "Scorțișoara este un condiment dulce-aromat folosit frecvent în deserturi și băuturi."
+    },
+    {
+        "id": 41,
+        "name": "Vanilie",
+        "category": "Condimente și ierburi",
+        "calories": "288 kcal / 100 g",
+        "protein": "0.1 g",
+        "fat": "0.1 g",
+        "carbohydrates": "13 g",
+        "description": "Vanilia este un ingredient aromatic folosit în special la prepararea deserturilor."
     }
 ]
