@@ -1,8 +1,18 @@
 from django.http import JsonResponse
-from .models import Recipe
 import json
 from django.views.decorators.csrf import csrf_exempt # i'm using this for testing with  Postman
 
+#Recipes
+from .models import Recipe
+
+#Product
+from .models import Product
+
+#Nutrition
+from .models import Nutrition
+
+
+#Recipes API
 def get_recipes(request):
 
     recipes = Recipe.objects.all()  #gather all the rows from the Recipe SQlite
@@ -71,7 +81,7 @@ def add_recipes(request):
 
 
 @csrf_exempt #tells Django not to check the CSRF security token for this view.
-def update_recipes(request,id):
+def change_recipes_entirely(request,id):
     if request.method != "PUT":
         return JsonResponse(
             {"error":"Doar metoda PUT este permisă"}, status=405
@@ -104,7 +114,7 @@ def update_recipes(request,id):
     )
 
 @csrf_exempt
-def patch_recipes(request,id):
+def update_recipes(request,id):
 
     if request.method != "PATCH":
         return JsonResponse(
@@ -166,6 +176,100 @@ def delete_recipes(request,id):
     return JsonResponse(
         {"message":"Rețeta a fost ștearsă cu succes"}, status=200
     )
+
+#Products API
+@csrf_exempt
+def get_products(request):
+     if request.method == "GET":
+
+        products = Product.objects.all()
+
+        data = []
+
+        for product in products:
+
+            data.append(
+                {
+                "id": product.id,
+                "name": product.name,
+                "category": product.category,
+                "calories": product.calories,
+                "protein": product.protein,
+                "fat": product.fat,
+                "carbohydrates": product.carbohydrates,
+                "description": product.description
+                }
+            )
+
+        return JsonResponse(data, safe=False)
+
+@csrf_exempt
+def get_one_product(request,id):
+    if request.method == "GET":
+
+        try:
+            product = Product.objects.get(id=id)
+
+            data = {
+                "id": product.id,
+                "name": product.name,
+                "category": product.category,
+                "calories": product.calories,
+                "protein": product.protein,
+                "fat": product.fat,
+                "carbohydrates": product.carbohydrates,
+                "description": product.description
+            }
+
+            return JsonResponse(data)
+        except Product.DoesNotExist:
+
+            return JsonResponse({"error": "Product not found"},status=404)
+
+#Nutrition API
+@csrf_exempt
+def get_nutritions(request):
+    if request.method == "GET":
+
+        nutritions = Nutrition.objects.all()
+
+        data = []
+
+        for nutrition in nutritions:
+            data.append(
+                {
+                "id": nutrition.id,
+                "name": nutrition.name,
+                "category": nutrition.category,
+                "description": nutrition.description,
+                "daily_intake": nutrition.daily_intake,
+                "sources": nutrition.sources
+                }
+            )
+
+        return JsonResponse(data, safe=False)
+
+@csrf_exempt
+def get_one_nutrition(request,id):
+    if request.method == "GET":
+
+        try:
+            nutrition = Nutrition.objects.get(id=id)
+
+            data = {
+                "id": nutrition.id,
+                "name": nutrition.name,
+                "category": nutrition.category,
+                "description": nutrition.description,
+                "daily_intake": nutrition.daily_intake,
+                "sources": nutrition.sources
+            }
+
+            return JsonResponse(data)
+        except Nutrition.DoesNotExist:
+
+            return JsonResponse({"error": "Nutrition not found"},status=404)
+
 
 
 
