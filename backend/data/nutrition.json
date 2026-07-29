@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Proteine",
+        "category": "Macronutrienți",
+        "description": "Proteinele sunt nutrienți esențiali care contribuie la creșterea, repararea și menținerea țesuturilor organismului. Ele sunt importante pentru dezvoltarea masei musculare și buna funcționare a organismului.",
+        "daily_intake": "Aproximativ 0.8 g/kg corp pentru adulți, iar necesarul poate crește în funcție de activitatea fizică.",
+        "sources": [
+            "Piept de pui",
+            "Somon",
+            "Ouă",
+            "Lapte",
+            "Iaurt",
+            "Parmezan"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Carbohidrați",
+        "category": "Macronutrienți",
+        "description": "Carbohidrații sunt principala sursă de energie pentru organism. Aceștia ajută la desfășurarea activităților zilnice și susțin funcționarea creierului.",
+        "daily_intake": "În general reprezintă aproximativ 45-65% din aportul zilnic de energie.",
+        "sources": [
+            "Orez",
+            "Paste",
+            "Făină",
+            "Cartofi",
+            "Banane",
+            "Fulgi de ovăz"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Grăsimi",
+        "category": "Macronutrienți",
+        "description": "Grăsimile sunt o sursă importantă de energie și contribuie la absorbția vitaminelor A, D, E și K. Grăsimile sănătoase sunt importante pentru funcționarea organismului.",
+        "daily_intake": "Aproximativ 20-35% din aportul zilnic de energie.",
+        "sources": [
+            "Avocado",
+            "Ulei de măsline",
+            "Unt",
+            "Nuci",
+            "Somon"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Fibre",
+        "category": "Nutrienți",
+        "description": "Fibrele sunt componente ale alimentelor vegetale care susțin digestia și contribuie la menținerea unei alimentații echilibrate.",
+        "daily_intake": "Aproximativ 25-30 g pe zi pentru adulți.",
+        "sources": [
+            "Măr",
+            "Kiwi",
+            "Broccoli",
+            "Morcovi",
+            "Fulgi de ovăz"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Vitamina C",
+        "category": "Vitamine",
+        "description": "Vitamina C este un antioxidant care contribuie la protejarea celulelor și la funcționarea normală a sistemului imunitar.",
+        "daily_intake": "Aproximativ 75-90 mg pe zi pentru adulți.",
+        "sources": [
+            "Lămâie",
+            "Kiwi",
+            "Ardei",
+            "Roșii"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Calciu",
+        "category": "Minerale",
+        "description": "Calciul este un mineral important pentru sănătatea oaselor și a dinților, având rol și în funcționarea normală a mușchilor.",
+        "daily_intake": "Aproximativ 1000 mg pe zi pentru adulți.",
+        "sources": [
+            "Lapte",
+            "Iaurt",
+            "Mozzarella",
+            "Parmezan",
+            "Cremă de brânză"
+        ]
+    }
+]
