@@ -1,5 +1,5 @@
 import json
-from recipes.models import Nutrition
+from nutrition.models import Nutrition
 
 
 def import_nutrition():

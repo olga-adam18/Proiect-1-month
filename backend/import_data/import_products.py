@@ -1,5 +1,5 @@
 import json
-from recipes.models import Product
+from products.models import Product
 
 
 def import_products():
